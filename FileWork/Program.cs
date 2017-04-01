@@ -10,7 +10,9 @@ namespace FileWork
     {
         static void Main(string[] args)
         {
-            
+            FileWorker.Start();
+            FileWorker.AddLanguage("English");
+            FileWorker.AddLanguage("French");
         }
     }
 }
