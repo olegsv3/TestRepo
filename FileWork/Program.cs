@@ -13,6 +13,8 @@ namespace FileWork
             FileWorker.Start();
             FileWorker.AddLanguage("English");
             FileWorker.AddLanguage("French");
+            FileWorker.ActiveLanguage = "French";
+            FileWorker.AddCategory("Flat");
         }
     }
 }
